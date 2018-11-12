@@ -136,8 +136,8 @@ let maplocalleader = ","
 
 " buffer manipulations
 nnoremap <Leader>b :CtrlPBuffer<CR>
-" nnoremap <Tab> :bnext<CR>
-" nnoremap <S-Tab> :bprevious<CR>
+nnoremap <Tab> :bnext<CR>
+nnoremap <S-Tab> :bprevious<CR>
 nnoremap <C-X> :bdelete<CR>
 
 
